@@ -95,7 +95,6 @@ We wanted to practice our front-end skills by recreating something familiar but 
 - [ ] More languages support
 - [ ] Smooth theme transitions
 - [ ] Mobile hamburger menu
-- [ ] Easter eggs! 🥚
 
 ---
 
