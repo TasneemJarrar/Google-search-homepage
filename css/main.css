@@ -6,31 +6,34 @@
 body{
   background: #202124;
   font-family: 'Poppins', Arial, sans-serif;
-  height: auto;
 }
 a{
-  font-size: small;
+  font-size: 13px;
   text-decoration: none;
   cursor: pointer;
 }
+/* header start */
 .header-top{
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap; 
   justify-content: right;
+  gap: 5px;
   align-items: center;
   padding:5px;
 }
-.link{
+.header-top .link{
   color: white;
-  padding: 10px 5px 10px 5px;
+  padding: 10px 5px;
+  font-size: 12px;
+  margin-top: 5px;
 }
 .link:hover{
   text-decoration: underline;
 }
-.header-top i {
+.header-top .header-icons{
   color:white;
-  font-size: 20px;
+  font-size: 25px;
   padding: 10px;
   width: 40px;
   height: 40px; 
@@ -39,9 +42,11 @@ a{
   display: flex;
   justify-content: center;
 }
-.header-top i:hover {
+.header-top .header-icons:hover {
   background: #3a3b3c83; 
 }
+/* header end */
+/* logo start */
 .logo{
   display: flex;
   justify-content: center;
@@ -53,13 +58,8 @@ a{
   color: white;
   width: fit-content;
 }
-.logo .search-bar .google-search .lang .bar{
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-  align-items: center;  
-}
+/* logo end */
+/* search bar start */
 .search-bar .bar-content i{
   color:#bfbfbf;
 }
@@ -107,6 +107,8 @@ a{
   font-size: 16px;
   color: white;
 }
+/* search bar end */
+/* google search start */
 .google-search{
   display: flex;
   flex-direction: row;
@@ -125,6 +127,8 @@ a{
 .google-search button:hover{
   border-color: #5f6368;
 }
+/* google search end */
+/* language start */
 .lang{
   color: #bfbfbf;
   font-size: small;
@@ -146,6 +150,8 @@ a{
   justify-content: center;
   align-items:center;     
 }
+/* language end */
+/* theme strat */
 .theme button {
   font-size: 15px;
   font-family: 'Poppins', Arial, sans-serif;
@@ -164,3 +170,4 @@ a{
 .theme button i{
   font-size: 20px;
 }
+/* theme end */

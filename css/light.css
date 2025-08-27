@@ -9,28 +9,32 @@ body{
   height: auto;
 }
 a{
-  font-size: small;
+  font-size: 13px;
   text-decoration: none;
   cursor: pointer;
 }
+/* header start */
 .header-top{
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap; 
   justify-content: right;
+  gap: 5px;
   align-items: center;
   padding:5px;
 }
-.link{
+.header-top .link{
   color: #4b4e52;
-  padding: 10px 5px 10px 5px;
+  padding: 10px 5px;
+  font-size: 12px;
+  margin-top: 5px;
 }
 .link:hover{
   text-decoration: underline;
 }
-.header-top i {
+.header-top .header-icons{
   color:#5f6368;
-  font-size: 20px;
+  font-size: 25px;
   padding: 10px;
   width: 40px;
   height: 40px; 
@@ -39,9 +43,11 @@ a{
   display: flex;
   justify-content: center;
 }
-.header-top i:hover {
+.header-top .header-icons:hover {
   background: #b6b7b883;
 }
+/* header end */
+/* logo start */
 .logo{
   display: flex;
   justify-content: center;
@@ -57,13 +63,8 @@ a{
 .O2 {color:#fbbc05;}
 .L {color:#34a853;}
 .E {color: #ea4335;}
-.logo .search-bar .google-search .lang .bar{
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-  align-items: center;  
-}
+/* logo end */
+/* search bar start */
 .search-bar .bar-content i{
   color:#474747;
 }
@@ -113,6 +114,8 @@ a{
   font-size: 16px;
   color: black;
 }
+/* search bar end */
+/* google saerch start */
 .google-search{
   display: flex;
   flex-direction: row;
@@ -132,6 +135,8 @@ a{
   border-color: #dadce0;
   box-shadow: 0px 3px 10px 0px rgba(31, 31, 31, 0.092);
 }
+/* google saerch end */
+/* language start */
 .lang{
   color:#4b4e52;
   font-size: small;
@@ -148,6 +153,8 @@ a{
 .lang a:hover{
   text-decoration: underline;
 }
+/* language end */
+/* theme start */
 .theme {
   display: flex; 
   justify-content: center;
@@ -172,3 +179,4 @@ a{
 .theme button i{
   font-size: 20px;
 }
+/* theme start */
