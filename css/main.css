@@ -3,19 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body{
   background: #202124;
   font-family: 'Poppins', Arial, sans-serif;
   height: auto;
 }
-
 a{
   font-size: small;
   text-decoration: none;
   cursor: pointer;
 }
-
 .header-top{
   display: flex;
   flex-direction: row;
@@ -24,21 +21,16 @@ a{
   align-items: center;
   padding:5px;
 }
-
 .link{
   color: white;
   padding: 10px 5px 10px 5px;
 }
-
 .link:hover{
   text-decoration: underline;
-
 }
-
 .header-top i {
   color:white;
   font-size: 20px;
-  /* padding: 5px 10px 10px 10px; */
   padding: 10px;
   width: 40px;
   height: 40px; 
@@ -47,33 +39,20 @@ a{
   display: flex;
   justify-content: center;
 }
-
-
 .header-top i:hover {
   background: #3a3b3c83; 
 }
-
-
-
-/*.user-image{
-  border-radius: 50%;
-  padding: 10px 5px 10px 5px;
-
-}*/
-
 .logo{
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .logo-name{
   font-size: 85px;
   font-weight: 450;
   color: white;
   width: fit-content;
 }
-
 .logo .search-bar .google-search .lang .bar{
   display: flex;
   flex-direction: column;
@@ -81,11 +60,9 @@ a{
   justify-content: center;
   align-items: center;  
 }
-
 .search-bar .bar-content i{
   color:#bfbfbf;
 }
-
 .search-bar{
   display: flex;
   flex-direction: row;
@@ -94,7 +71,6 @@ a{
   padding: 20px 0;
   border-radius: 0px;
 }
-
 .bar-content{
   display: flex;
   gap: 5px;
@@ -104,29 +80,23 @@ a{
   align-items: center;
   padding: 13px 15px;
 }
-
 .bar-content form {
   flex:1 1 auto;
 }
-
 .bar-content:hover{
   background-color: #5f6368;
 }
-
 .bar-content i {
-  /* display: flex;*/
   margin-left: auto;
   font-size: 20px;
   cursor: pointer;
   color: #bfbfbf;
   padding: 0 5px;
 }
-
 .bar-content .search-icon {
   font-size: 15px;
   cursor: default;
 }
-
 .search-input{
   background: transparent;
   border: none;
@@ -137,7 +107,6 @@ a{
   font-size: 16px;
   color: white;
 }
-
 .google-search{
   display: flex;
   flex-direction: row;
@@ -146,7 +115,6 @@ a{
   align-items: center;
   padding: 20px 0;
 }
-
 .google-search button{
   background-color: #303134d2;
   color: #e8e8e8;
@@ -154,11 +122,9 @@ a{
   border: transparent 0.5px solid;
   border-radius: 8px ;
 }
-
 .google-search button:hover{
   border-color: #5f6368;
 }
-
 .lang{
   color: #bfbfbf;
   font-size: small;
@@ -169,21 +135,17 @@ a{
   align-items: center;
   padding: 20px 0;
 }
-
 .lang a{
   color: #99c3ff;
 }
-
 .lang a:hover{
   text-decoration: underline;
 }
-
 .theme {
   display: flex; 
   justify-content: center;
   align-items:center;     
 }
-
 .theme button {
   font-size: 15px;
   font-family: 'Poppins', Arial, sans-serif;
@@ -196,11 +158,9 @@ a{
   display: flex;
   gap: 5px;
 }
-
 .theme button:hover {
   border-color: #b1b6bb;
 }
-
 .theme button i{
   font-size: 20px;
 }
