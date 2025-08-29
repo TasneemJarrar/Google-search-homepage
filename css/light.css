@@ -114,6 +114,10 @@ a{
   font-size: 16px;
   color: black;
 }
+.search-input::placeholder {
+    color: #999;
+    opacity: 1;
+}
 /* search bar end */
 /* google saerch start */
 .google-search{

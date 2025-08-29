@@ -107,7 +107,14 @@ a{
   padding-left: 15px;
   font-size: 16px;
   color: white;
+  text-align: right;
 }
+.search-input::placeholder {
+    color: #999;
+    opacity: 1;
+}
+/* search bar end */
+/* google search start */
 .google-search{
   display: flex;
   flex-direction: row;
@@ -126,7 +133,7 @@ a{
 .google-search button:hover{
   border-color: #5f6368;
 }
-/* search bar end */
+/* google search end */
 /* language strat */
 .lang{
   color: #bfbfbf;

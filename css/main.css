@@ -107,6 +107,10 @@ a{
   font-size: 16px;
   color: white;
 }
+.search-input::placeholder {
+    color: #999;
+    opacity: 1;
+}
 /* search bar end */
 /* google search start */
 .google-search{
